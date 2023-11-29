@@ -1,0 +1,694 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Space Travel! 🚀 Coming Soon</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<header id="header" class="header">
+    <div class="logo">
+        <img src="https://immy2good.github.io/landing-page/images/logo.jpg" alt="Space Logo" id="header-img" />
+    </div>
+    <nav id="nav-bar">
+        <ul>
+          <li ><a class="nav-link" href="#features">Features</a></li>
+          <li ><a class="nav-link" href="#watch">Watch</a></li>
+          <li ><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li ><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="main">
+      <section id="cover">
+        <div class="cover">
+          <!-- <div> <img src="./images/cover.jpg" alt="" class="cover-image"> -->
+          <h1>Space Travel!🚀</h1>
+          <h3>Around The World 🌍 in 90 Minutes </h3>
+          <!-- <div><button>Fly Now!</button> <button></button></div> -->
+        </div>
+      </section>
+      <section id="features">
+        <div class="features">
+          <div class="center"><h2>Let's touch the <span style="font-weight: 900; color:rgb(28, 114, 167); font-size: 2.5rem">Moon!</span></h2></div>
+          <div >
+            <p id="features-p">Watch The Green Plant</p>
+            <p id="features-p">Create a History</p>
+            <p id="features-p">100% Secure</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="watch">
+        <div>
+          <h2><span style="height: 100px; color: white; font-weight:900; font-size: 3rem;">Watch Space Expedition</span></h2>
+          <div class="video-container">
+            <iframe
+              width="560px"
+              height="315px"
+              id="video"
+              src="https://www.youtube.com/embed/ZPrB3WvnZpE?si=hCZxGKyevotJcVRB"
+              title="Experience Space"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- </div> -->
+      </section>
+
+      <section id="pricing">
+        
+        <div class="pricing-table " >
+          
+          <h2><span style="height: 100px; color: white; font-weight:900; font-size: 7vh; ">Pick a Package Deal</span></h2>
+          <div class="pricing-column"> 
+            <h2 class="pricing-header  ">Silver</h2>
+              <ul>
+                <li>Free Virtual Tour</li>
+                <li>Launching Pad Visit</li>
+                <li>Sit Inside the Rocket</li>
+                <li>Watch them Fly!</li>
+              </ul>
+            
+          </div>
+
+          <div class="pricing-column "> 
+            
+            <h2 class="pricing-header gold">Gold</h2>
+             <ul>
+                <li>Guided Virtual Tour</li>
+                <li>Launching Pad Visit</li>
+                <li>Sit Inside the Rocket</li>
+                <li>Fly to Space!</li>
+              </ul>
+          
+          
+          </div>
+
+          <div class="pricing-column "> 
+            <h2 class="pricing-header platinum ">Platinum</h2>
+                         <ul>
+                <li>Top 3 Seats</li>
+                <li>Alient Contact</li>
+                <li>ET Wave Goodbye!</li>
+                <li>Space Trump Massage</li>
+              </ul>
+              <!-- <div> <button class="cta-btn">TEXT</button></div> -->
+          </div>
+          
+          
+
+
+        </div>
+
+
+
+      </section>
+
+      <section id="contact">
+        <!-- <div class="features"> -->
+         <h2 style="color: whitesmoke;">Contact Form</h2>
+<!-- <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p> -->
+
+<div class="container">
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <!--  -->
+    <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="Your email..">
+          </div>
+        </div>
+    <!--  -->
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit" id="submit">
+    </div>
+  </form>
+</div>
+        </div>
+      </section>
+
+      <footer id="footer">
+      
+
+      <address>
+        <h3>The Moon Inc.</h3>
+        <p>The Grey Zone</p>
+        <p>250K KM Above Earth</p>
+
+      </address>
+      </footer>
+    </div>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script src="" async defer></script>
+
+    
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(0deg, rgba(25, 5, 173, 0.8),
+            rgba(29, 45, 87, 0.7)), url(./images/cover.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    min-height: 100%;
+    /* background-repeat:repeat-y; */
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER , Nav and Logo*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 50px;
+    padding-right: 3vw;
+    gap: 2vw;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.373);
+}
+
+
+.logo {
+    width: 50vw;
+}
+
+.logo>img {
+    /* display: flex; */
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    flex-wrap: nowrap;
+    width: 100%;
+    /* justify-content: space-around; */
+    overflow: hidden;
+}
+
+nav>ul a, nav  {
+    text-decoration: none;
+    list-style: none;
+    /* text-justify: distribute; */
+    color: rgba(250, 250, 250, 0.767);
+    font-size: 2.5vh;
+}
+
+.nav-link {
+    text-decoration: none;
+    list-style: none;
+    /* text-justify: center; */
+    color: rgba(242, 241, 241, 0.791)
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 80vh;
+    flex-direction: column;
+
+
+}
+
+h1 {
+    font-weight: 900;
+
+    font-size: 10vw;
+    color: aliceblue;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: rgb(53, 54, 116);
+    text-align: center;
+    margin-top: 5%;
+
+
+}
+
+.contact h2 {
+    color: white;
+}
+
+p, #features-p {
+    font-size: 2vw;
+    color: aliceblue;
+
+
+}
+
+h3 {
+    font-size: 3vw;
+    color: aliceblue;
+
+
+}
+
+.center h3 {
+    font-size: 2vw;
+}
+
+button {
+    padding: 1rem;
+    margin: 2rem;
+    width: 150px;
+    background-color: rgb(255, 72, 0);
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+
+}
+
+
+
+.features {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex: auto; */
+    margin: 5% 5%;
+
+}
+
+/* .features-items {
+    
+    border: 10px black solid;
+
+} */
+
+.center {
+
+    align-items: center;
+    justify-content: center
+}
+
+
+
+.features p {
+    background: rgb(53, 54, 116);
+    width: minmax(200px, 100%);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+}
+
+.pricing-table {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100vw;
+
+    flex-wrap: wrap;
+    background-color: rgba(51, 50, 50, 0.449);
+    padding: 5%;
+}
+
+.pricing-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    margin: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.pricing-header {
+    font-size: 2.5rem;
+    margin: 0 0 0.6rem;
+    background: rgb(32, 32, 32);
+    color: #ededed;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid grey;
+    box-shadow:
+        inset 0 -3em 3em rgba(58, 58, 58, 0.3),
+
+        0.3em 0.3em 1em rgba(28, 28, 28, 0.6);
+}
+
+
+.silver {
+    background-color: rgb(120, 119, 119);
+
+}
+
+.gold {
+    background-color: goldenrod;
+}
+
+.platinum {
+    background-color: skyblue;
+}
+
+.pricing-column li {
+    /* margin-left: 1.5rem; */
+    padding: 5% 2%;
+    text-indent: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.565);
+
+}
+
+.cta-button {
+
+
+
+    background-color: rgb(255, 72, 0);
+
+
+
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+
+}
+
+.contact-form {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.label-left {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+
+}
+
+.input-right {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+input {
+    background-color: #e8e8e8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left
+}
+
+button[type=submit] {
+    background-color: #040faa;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+footer {
+    /* height: 200px; */
+    background-color: rgba(0, 0, 0, 0.565);
+    /* margin: 25%; */
+    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+address {
+    color: darkblue;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #2004aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #4549a0;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 5% 20%;
+
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    .cover p, #features-p {
+        font-size: 3vw;
+        color: lightblue;
+    }
+
+    h1 {
+        font-weight: 900;
+
+        font-size: 10vw;
+        color: aliceblue;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 3rem;
+        color: rgb(53, 54, 116);
+        text-align: center;
+        margin-top: 5%;
+
+
+    }
+
+
+}
+
+/* If the screen size is 400px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400px) {
+    .cover p, #features-p {
+        font-size: 3vw;
+        color: lightblue;
+    }
+
+    h1 {
+        font-weight: 900;
+
+        font-size: 10vw;
+        color: aliceblue;
+
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 2rem;
+        color: rgb(53, 54, 116);
+        text-align: center;
+        margin-top: 5%;
+
+
+    }
+
+
+}
+
+** end of undefined **
+
