@@ -16,6 +16,8 @@ html {
 body {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222)); */
+
 }
 
 /* HEADER , Nav and Logo*/
@@ -25,8 +27,8 @@ header {
     align-items: center;
     justify-content: space-evenly;
     min-height: 50px;
-    padding-right: 3vw;
-    gap: 2vw;
+    padding-right: 4vw;
+    gap: vw;
     width: 100%;
     z-index: 1000;
     transition: top 0.3s;
@@ -37,6 +39,7 @@ header {
 
 .logo {
     width: 50vw;
+    min-width: 50px;
 }
 
 .logo>img {
@@ -63,13 +66,23 @@ nav>ul {
     overflow: hidden;
 }
 
-nav>ul a, nav {
+nav li {
     text-decoration: none;
     list-style: none;
     /* text-justify: distribute; */
     color: rgba(250, 250, 250, 0.767);
-    font-size: 2.5vh;
+    font-size: 2.7vh;
+    cursor: pointer;
+   
+    
 }
+
+nav li:hover {
+    background-color: rgb(64, 0, 255);
+    padding: 1rem;
+
+}
+
 
 .nav-link {
     text-decoration: none;
@@ -85,6 +98,8 @@ nav>ul a, nav {
     padding: 1rem;
     height: 80vh;
     flex-direction: column;
+    /* background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222)); */
+
 
 
 }
@@ -155,6 +170,8 @@ button {
     align-items: center;
     /* flex: auto; */
     margin: 5% 5%;
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+
 
 }
 
@@ -257,14 +274,17 @@ button {
 .silver {
     background-color: rgb(120, 119, 119);
 
+
 }
 
 .gold {
-    background-color: goldenrod;
+    background: linear-gradient(45deg, goldenrod, rgb(247, 255, 222));
+
 }
 
 .platinum {
-    background-color: skyblue;
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+
 }
 
 .pricing-column li {
@@ -299,6 +319,8 @@ button {
 .contact-form {
     display: inline-block;
     padding: 10px;
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+
 }
 
 
@@ -392,6 +414,8 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 30px;
     margin: 5% 20%;
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+
 
 }
 
@@ -432,7 +456,7 @@ input[type=submit]:hover {
 
     h1 {
         font-weight: 900;
-
+        margin-top: 5vh;
         font-size: 10vw;
         color: aliceblue;
 
@@ -444,6 +468,16 @@ input[type=submit]:hover {
         color: rgb(53, 54, 116);
         text-align: center;
         margin-top: 5%;
+
+
+    }
+
+    .cover {
+        
+        height: 35vh;
+
+        /* background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222)); */
+
 
 
     }
